@@ -53,10 +53,7 @@
 		background:none;
 		outline:none;
 		float:left;
-		padding:0;
 		color:white;
-		transition:0.4s;
-		line-height:30px;
 		width:212px;
 	
 	}
@@ -64,16 +61,45 @@
 	.search-btn{
 		float:right;
 		color: #fff;
-		width:25px;
-		height:25px;
+		width:20px;
+		height:20px;
 		border-radius:40px;
 		background: #2d2928;
+		margin-top: 4px;
 		margin-right:10px;
 		text-align:center;
 	}
 	
 	
 	/********************************************header section ends here *******************************************/
+	
+	
+	
+	/********************************************navbar section starts here *******************************************/
+	.logo{
+		float:left;
+	}
+	
+	.logo-section{
+		padding-top: 34px;
+		padding-bottom:32px;
+	}
+	
+	
+	.logo>h1{
+	
+		
+		font-size:48px;
+	}
+	
+	.logo-img{
+		float:right;
+		padding: 20px 184px;
+		border: 2px dotted #777;
+	}
+	
+	/********************************************navbar section ends here *******************************************/
+	
 	
 	/********************************************navbar section starts here *******************************************/
 	
@@ -91,7 +117,7 @@
 	
 	.nav-list>li{
 		list-style-type:none;
-		border-right: 1px double #e1e1e1;
+		border-right: 1px double #999;
 		float: left;
 		padding: 0 8px;
 		
@@ -105,15 +131,7 @@
 		font-weight: bold;
 	}
 	
-	/********************************************navbar section ends here *******************************************/
 	
-	
-	.logo>h1{
-		padding-top: 33px;
-		padding-bottom: 40px;
-		float:left;
-		font-size:48px;
-	}
 	
 	/********************************************Banner details section starts here *******************************************/
 	
@@ -123,7 +141,7 @@
 		width:560px ;
 		height:330px ; 
 		float: left;
-		border: 3px solid #ccc;
+		border: 3px solid #777;
 	
 		
 	}
@@ -171,12 +189,14 @@
 		border-bottom:1px solid #e1e1e1;
 	}
 	
+	/****************************************** Column 1 section  start here***********************************/
 	
-	.details1{
+	.col1{
 		float:left;
+		margin-right:10px;
 		
 	}
-	.details1>p{
+	.col1>p{
 		width:295px;
 		font-size:18px;
 		color:#666;
@@ -184,12 +204,12 @@
 		padding-top:42px;
 	}
 	
-	.details1>h2{
+	.col1>h2{
 		font-size: 12px;
 		color: #989898;
 	}
 	
-	.details1>a{
+	.col1>a{
 		color: #ff9900;
 		text-decoration: none;
 		font-size: 12px;
@@ -198,7 +218,7 @@
 	}
 	
 	
-	.details1-img {
+	.col1-img {
         width:280px;
 		height:380px;
         border: 2px solid #e1e1e1;
@@ -207,41 +227,12 @@
 		
 		
       }
-      .details1-img img {
+      .col1-img img {
         width: 100%;
         height: 100%;
       }
 	  
-	  
-	/****************************************** Details 2 section ***********************************/
-	
-	.details2{
-		float:left;
-		
-	}
-	.details2>p{
-		width:295px;
-		font-size:18px;
-		color:#666;
-		padding-bottom:15px;
-		padding-top:42px;
-	}
-	
-	.details2>h2{
-		font-size: 12px;
-		color: #989898;
-	}
-	
-	.details2>a{
-		color: #ff9900;
-		text-decoration: none;
-		font-size: 12px;
-		margin-bottom:14px;
-		
-	}
-	
-	
-	.details2-img {
+	.col2-img2{
         width:280px;
 		height:340px;
         border: 2px solid #e1e1e1;
@@ -250,21 +241,21 @@
 		
 		
       }
-      .details2-img img {
+      .col2-img2 img {
         width: 100%;
         height: 100%;
       }
 	
-	/*details 3&4 */
+/****************************************** Column 1 section  ends here***********************************/
 	
+	/****************************************** Column 2 section  starts here***********************************/
 	
-	
-	
-	.details3{
+	.col2{
 		float:left;
-		margin-left: 24px;
+		margin-left: 15px;
 		}
-	.details3>p{
+		
+	.col2>p{
 		width:295px;
 		font-size:18px;
 		color:#666;
@@ -272,12 +263,12 @@
 		padding-top:42px;
 	}
 	
-	.details3>h2{
+	.col2>h2{
 		font-size: 12px;
 		color: #989898;
 	}
 	
-	.details3>a{
+	.col2>a{
 		color: #ff9900;
 		text-decoration: none;
 		font-size: 12px;
@@ -286,7 +277,7 @@
 	}
 	
 	
-	.details3-img {
+	.col2-img {
         width:280px;
 		height:320px;
         border: 2px solid #e1e1e1;
@@ -295,41 +286,14 @@
 		
 		
       }
-      .details3-img img {
+      .col2-img img {
         width: 100%;
         height: 100%;
       }
 	  
 	  
-	/****************************************** Details 4 section ***********************************/
 	
-	.details4{
-		float:left;
-		
-	}
-	.details4>p{
-		width:295px;
-		font-size:18px;
-		color:#666;
-		padding-bottom:15px;
-		padding-top:42px;
-	}
-	
-	.details4>h2{
-		font-size: 12px;
-		color: #989898;
-	}
-	
-	.details4>a{
-		color: #ff9900;
-		text-decoration: none;
-		font-size: 12px;
-		margin-bottom:14px;
-		
-	}
-	
-	
-	.details4-img {
+	.col2-img2 {
         width:280px;
 		height:380px;
         border: 2px solid #e1e1e1;
@@ -338,19 +302,22 @@
 		
 		
       }
-      .details4-img img {
+      .col2-img2 img {
         width: 100%;
         height: 100%;
       }
 	
-	/****************************************** Details 5 section ***********************************/
 	
-	.details5{
+	/****************************************** Column 2 section  ends here***********************************/
+	
+	/****************************************** Column 3 section  start here***********************************/
+	
+	.col3{
 		float:left;
-	margin-left: 24px;
+		margin-left: 25px;
 		
 	}
-	.details5>p{
+	.col3>p{
 		width:295px;
 		font-size:18px;
 		color:#666;
@@ -358,12 +325,12 @@
 		padding-top:42px;
 	}
 	
-	.details5>h2{
+	.col3>h2{
 		font-size: 12px;
 		color: #989898;
 	}
 	
-	.details5>a{
+	.col3>a{
 		color: #ff9900;
 		text-decoration: none;
 		font-size: 12px;
@@ -372,7 +339,7 @@
 	}
 	
 	
-	.details5-img {
+	.col3-img {
         width:280px;
 		height:220px;
         border: 2px solid #e1e1e1;
@@ -381,41 +348,13 @@
 		
 		
       }
-      .details5-img img {
+      .col3-img img {
         width: 100%;
         height: 100%;
       }
 	
 	
-	/****************************************** Details 6 section ***********************************/
-	
-	.details5{
-		float:left;
-		
-	}
-	.details6>p{
-		width:295px;
-		font-size:18px;
-		color:#666;
-		padding-bottom:15px;
-		padding-top:42px;
-	}
-	
-	.details6>h2{
-		font-size: 12px;
-		color: #989898;
-	}
-	
-	.details6>a{
-		color: #ff9900;
-		text-decoration: none;
-		font-size: 12px;
-		margin-bottom:14px;
-		
-	}
-	
-	
-	.details6-img {
+	.col3-img2 {
         width:280px;
 		height:530px;
         border: 2px solid #e1e1e1;
@@ -424,12 +363,12 @@
 		
 		
       }
-      .details6-img img {
+      .col3-img2 img {
         width: 100%;
         height: 100%;
       }
 	  
-	  
+	  /****************************************** Column 3 section ends here ***********************************/
 	  
 	/******************************************** details section endss here *******************************************/
 	  

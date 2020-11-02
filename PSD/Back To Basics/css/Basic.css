@@ -32,6 +32,8 @@ a{
 
 	}
 	
+	/***********************************header section starts here******************************************/
+
 .header-text h1
 {
 	float:left;
@@ -57,13 +59,13 @@ a{
 	background-color: #d54346;
 	border-radius: 10px;
 	margin-left: 4px;
-	text-align: center;
+
 }
 
  .search-bar a{
 	text-decoration:none;
 	font-size: 12px;
-	padding: 12px 0;
+	padding: 12px 9px;
 	width:67px;
 	color: #fff;
 	
@@ -72,18 +74,22 @@ a{
 
 .search-txt{
 	float:right;
-	padding:12px 0;
+	padding:10px 0;
 	background-color: #222;
 	width:217px;
 	border-radius:10px;
 }
 
 
-
+.nav-bar{
+	padding-top: 17px;
+	padding-bottom:25px;
+	border-bottom: 1px solid #777;
+}
 
 .nav-list{
 	float:left;
-	padding-top: 40px;
+
 	
 	
 }
@@ -96,40 +102,59 @@ a{
 	border-right: 1px solid #777;
 }
 
-.social-img{
+.social-img {
 	float:right;
-	padding-top: 35px;
-	padding-bottom: 76px;
-	
 }
 
-.social-img img{
-	padding-left:10px;
-}
-
-.fa-linkedin-square{
-	color: #222;
+.ln-img{
+	float: left;
+	height: 32px;
+	width:32px;
 	border-radius: 50%;
-	font-size: 15px;
-   
-    
-}
-
-.line{
-	height:2px;
-	background-color: gray;
-	width:960px;
-	margin-top: 41px;
+	background: #222;
+	text-align:center;
+	font-size:24px;
+	margin-left:10px;
 	
 }
 
-.banner-img img{
-	
-		height:450px;
-		width:960px;
+.fa{
+	color:white;
 	
 }
 
+/***********************************header section ends here******************************************/
+
+
+/***********************************Banner section starts here******************************************/
+.banner{
+	padding-top: 50px;
+	position:relative;
+}
+
+
+.img-txt{
+	position:absolute;
+	top:335px;
+	left:35px;
+	width: 490px;	
+	background-color: #222;
+}
+
+
+
+.img-txt p{
+	color:#fff;
+	padding: 35px 40px;
+    font-size: 22px;
+	
+}
+
+
+/***********************************Banner section ends here******************************************/
+
+
+/***********************************Introduction section starts here******************************************/
 .intro1 h1{
 	
 	color: #999;
@@ -162,9 +187,7 @@ a{
 	padding-bottom:102px;
 }
 
-.introduction{
-	width:960px;
-}
+
 
 .img1{
 	width:80px;
@@ -182,8 +205,21 @@ a{
         height: 100%;
       }
 
+/***********************************Introduction section ends here******************************************/
+
+/***********************************Services section starts here******************************************/
+
+
+
 .block1{
 	float: left;
+}
+
+
+
+.services{
+	border-top: 2px sold #777;
+	
 }
 
 .services h1{
@@ -219,6 +255,18 @@ a{
 	float:left;
 }
 
+
+
+/***********************************Services section ends here******************************************/
+
+
+/***********************************about-us section starts here******************************************/
+
+.about-us-details{
+	float:right;
+	width:470px;
+}
+
 .about-us-details h2{
 	font-size: 13px;
 	color: #999;
@@ -248,21 +296,12 @@ a{
 	height:145px;
 	float:left;
 	margin-top: 35px;
-	
-	
-}
-
-
-.about-us-details{
-	float:right;
-	width:470px;
 }
 
 
 .img-descr2{
 	float:left;
 }
-
 
 .img-descr2 p{
 	width:413px;
@@ -286,7 +325,7 @@ a{
 	float:right;
 }
 
-
+/***********************************testimonial section starts here******************************************/
 
 .testimonial{
 	float:left;
@@ -346,10 +385,8 @@ a{
 	padding-bottom:54px;
 }
 
-.line{
-	height:2px;
-	color:#777;
-}
+/***********************************testimonial section ends here******************************************/
+
 .copyright h2{
 	font-size:13px;
 	color: #999;
